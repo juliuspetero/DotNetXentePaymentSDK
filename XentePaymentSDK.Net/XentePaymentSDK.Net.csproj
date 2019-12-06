@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Xente Dev Team</Authors>
+    <Company>Xente Uganda Ltd</Company>
+    <Description>Xente Payment SDK is used for integrating payment collection application through mobile checkout, payment cards and Xente wallet</Description>
+    <PackageId>XentePaymentSDK.Net</PackageId>
+    <Product>XentePaymentSDK.Net</Product>
+    <PackageProjectUrl>https://bitbucket.org/xinterns/xente-net-sdk/src/master/</PackageProjectUrl>
+    <PackageIconUrl>https://www.google.com/imgres?imgurl=https%3A%2F%2Fres-2.cloudinary.com%2Fcrunchbase-production%2Fimage%2Fupload%2Fc_lpad%2Cf_auto%2Cq_auto%3Aeco%2Fxrx9zsvzmoljtjviisji&amp;imgrefurl=https%3A%2F%2Fwww.crunchbase.com%2Forganization%2Fxente&amp;docid=t_a-ETs6ZIFXXM&amp;tbnid=DknbhF5vLBqmuM%3A&amp;vet=10ahUKEwiT-cmx_MPlAhVIcBQKHcL1AlAQMwhAKAAwAA..i&amp;w=3508&amp;h=2480&amp;bih=654&amp;biw=1366&amp;q=xente%20uganda%20logo&amp;ved=0ahUKEwiT-cmx_MPlAhVIcBQKHcL1AlAQMwhAKAAwAA&amp;iact=mrc&amp;uact=8</PackageIconUrl>
+    <RepositoryUrl>https://bitbucket.org/xinterns/xente-net-sdk/src/master/</RepositoryUrl>
+    <PackageTags>Xente Payment SDK</PackageTags>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="XentePaymentResponses\im0mnan5.edb~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+  </ItemGroup>
+
+</Project>

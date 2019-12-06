@@ -1,0 +1,11 @@
+# Build Files
+obj
+bin
+
+# IDE Files
+*.user
+*suo
+
+# IDE Folders
+.vscode
+.vs

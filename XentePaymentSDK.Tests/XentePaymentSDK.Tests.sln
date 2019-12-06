@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XentePaymentSDK.Tests", "XentePaymentSDK.Tests.csproj", "{1A00BB60-7400-42C3-8C57-087FAFDC9F69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A00BB60-7400-42C3-8C57-087FAFDC9F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A00BB60-7400-42C3-8C57-087FAFDC9F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A00BB60-7400-42C3-8C57-087FAFDC9F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A00BB60-7400-42C3-8C57-087FAFDC9F69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {767177AD-8CF0-435E-BA6E-9CA5CB9C5EF7}
+	EndGlobalSection
+EndGlobal
