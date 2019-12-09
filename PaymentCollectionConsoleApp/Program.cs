@@ -6,7 +6,7 @@ namespace PaymentCollectionConsoleApp
 {
     class Program
     {
-        private static XentePayment xentePaymentGateway => new XentePayment(apikey: "6A19EA2A706041A599375CC95FF08809", password: "Demo123456", mode: Mode.Sandbox);
+        private static XentePayment xentePaymentGateway => new XentePayment(apikey: "", password: "", mode: Mode.Sandbox);
        
 
         static void Main(string[] args)
@@ -14,18 +14,18 @@ namespace PaymentCollectionConsoleApp
             // Create Transaction 
             CreateTransactionAsync().GetAwaiter().GetResult();
 
-            //Get transaction details by the transaction ID
-            GetTransactionDetailsAsync().GetAwaiter().GetResult();
+            ////Get transaction details by the transaction ID
+            //GetTransactionDetailsAsync().GetAwaiter().GetResult();
 
-            ////Get transaction details by the request ID
-            GetTransactionDetailsAsync2().GetAwaiter().GetResult();
+            //////Get transaction details by the request ID
+            //GetTransactionDetailsAsync2().GetAwaiter().GetResult();
 
 
-            //// Get Account Details
-            GetAccountDetailsAsync().GetAwaiter().GetResult();
+            ////// Get Account Details
+            //GetAccountDetailsAsync().GetAwaiter().GetResult();
 
-            ////List all Payment Providers
-            GetAllPaymentProvidersAsync().GetAwaiter().GetResult();
+            //////List all Payment Providers
+            //GetAllPaymentProvidersAsync().GetAwaiter().GetResult();
 
             Console.ReadLine();
 
